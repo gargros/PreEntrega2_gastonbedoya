@@ -73,8 +73,9 @@ header{
 	text-align: right;
 	display: flex;
 	list-style: none;
-	align-items: baseline;
+	align-items: center;
 	margin-bottom: 0px;
+	height: 40px;
 }
 
 .rightNav li {
@@ -86,6 +87,7 @@ header{
 	font-size: 150%;
 	font-weight: 700;
 	text-align: center;
+	align-items: center;
 	display: flex;
 	list-style: none;
 	width: 100%;
@@ -95,6 +97,12 @@ header{
 .center_nav a{
 	text-decoration: none;
 	color: white;
+}
+
+.buttonNav {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
 /* fin barra nav */
@@ -190,7 +198,7 @@ header{
 	padding-bottom: 20px;   
 	padding-left: 30px; 
 }
-  
+
 input{
 	background-color: #ffffff; 
 	width: 408px; 
@@ -203,7 +211,7 @@ input{
 	padding-left: 10px;
 	margin-bottom: 20px; 
 }
-  
+
 textarea{
 	background-color: #ffffff; 
 	width: 405px; 
@@ -217,13 +225,13 @@ textarea{
 	margin-bottom: 20px; 
 	padding-top: 15px; 
 }
-  
+
 label{
 	display: block; 
 	float: center;  
 }
-  
-button{
+
+button-contacto{
 	height: 45px; 
 	padding-left: 5px;
 	padding-right: 5px;   
@@ -235,8 +243,8 @@ button{
 	width: 420px;   
 	cursor: pointer;
 }
-  
-button p{
+
+button-contacto p{
 	color: #fff; 
 	font-weight: 700;
 }
@@ -245,25 +253,25 @@ button p{
 	font-size: 13px;  
 	color: #0e0e0e;  
 }
-  
+
 .h1_contacto{
 	font-size: 39px;  
 	text-align: center; 
 	padding-bottom: 20px; 
 	color: coral;
 }
-  
+
 .h3_contacto{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #474747;  
 	text-align: center; 
 }
-  
+
 form p{
 	font-size: 14px; 
 	color: #0e0e0e; 
-  }
+}
 
 form p label span {
 	color: coral; 
