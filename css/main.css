@@ -132,6 +132,7 @@ header{
 	color:#fff;
 	font-size: 400%;
 	font-weight: 700;
+	font-size: calc(1.525rem + 3.3vw);
 }
 
 .subtitular{
