@@ -23,10 +23,13 @@ header{
 	position: fixed;
 	margin: auto;
 	width: 100%;
-	z-index: 1111
+	z-index: 1111;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
-.navbar {
+.navbarM {
 	background-color: coral;
 	display: flex;
 	position: sticky; 
@@ -43,6 +46,7 @@ header{
 	width: 100%;
 	text-align: left;
 	display: flex;
+	margin-bottom: 0px;
 }
 
 .nav-list li {
@@ -53,7 +57,7 @@ header{
 	text-decoration: none;
 	text-align: left;
 	list-style: none;
-	padding: 26px 10px;
+	padding: 0px 10px;
 }
 
 .nav-list li a {
@@ -70,6 +74,7 @@ header{
 	display: flex;
 	list-style: none;
 	align-items: baseline;
+	margin-bottom: 0px;
 }
 
 .rightNav li {
@@ -84,6 +89,7 @@ header{
 	display: flex;
 	list-style: none;
 	width: 100%;
+	margin-bottom: 0px;
 }
 
 .center_nav a{
