@@ -144,12 +144,16 @@ header{
 	background-image:url("https://tinyurl.com/jp56xcg")
 }
 
-table {
-	border-collapse: collapse;
-	margin: 70px;
-	align-content: center;
+.row-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
+.col-padding {
+	padding: 0px;
+}
 /* fin home */
 
 /* inicio sobre mi */
