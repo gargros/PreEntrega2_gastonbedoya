@@ -82,15 +82,11 @@ header{
 	padding: 26px 10px;
 }
 
-.center_nav a{
-	text-decoration: none;
-	color: white;
-}
-
 .buttonNav {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
+	background-color: #fff;
 }
 
 
@@ -152,9 +148,18 @@ header{
 .col-padding {
 	padding: 0px;
 }
+
+.galeria img:hover {
+	color: rgba(255, 127, 80, 0.455);
+}
+
 /* fin home */
 
 /* inicio sobre mi */
+.img-about {
+	margin-top: 70px;
+	height: 300px;
+}
 
 .section_about{
 	padding: 90px 20px;
