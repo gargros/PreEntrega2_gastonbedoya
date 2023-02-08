@@ -185,59 +185,10 @@ header{
 	padding-bottom: 20px;   
 }
 
-input{
-	background-color: #ffffff; 
-	width: 408px; 
-	height: 40px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: coral; 
-	margin-top: 10px;  
-	padding-left: 10px;
-	margin-bottom: 20px; 
-}
-
-textarea{
-	background-color: #ffffff; 
-	width: 405px; 
-	height: 150px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: coral; 
-	margin-top: 10px;  
-	padding-left: 10px;
-	margin-bottom: 20px; 
-	padding-top: 15px; 
-}
-
-label{
-	display: block; 
-	float: center;  
-}
-
-button-contacto{
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px;   
-	margin-bottom: 20px; 
-	margin-top: 10px;   
-	text-transform: uppercase;
-	background-color: coral;  
-	border-radius: 10px;  
-	width: 420px;   
-	cursor: pointer;
-}
-
-button-contacto p{
-	color: #fff; 
+.btn-contacto { 
 	font-weight: 700;
-}
-
-.aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
+	background-color: coral;
+	border-width: 0px; 
 }
 
 .h1_contacto{
@@ -253,15 +204,6 @@ button-contacto p{
 	padding-bottom: 30px;
 	color: #474747;  
 	text-align: center; 
-}
-
-form p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-}
-
-form p label span {
-	color: coral; 
 }
 
 /* fin contacto */
