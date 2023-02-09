@@ -210,7 +210,9 @@ header{
 
 /* fin home */
 
+
 /* inicio sobre mi */
+
 .img-about {
 	margin-top: 70px;
 	height: 300px;
@@ -222,11 +224,17 @@ header{
 
 .h2_about{
 	text-align: left; 
+	font-weight: 700;
 	padding-bottom: 20px; 
 	color: #ff7f50;
 }
 
+.texto-corrido {
+	font-size: 20px;
+}
+
 /* fin sobre mi */
+
 
 /* inicio servicios */
 
@@ -234,7 +242,14 @@ header{
 	padding: 90px 20px;
 }
 
+.h3-serv {
+	text-align: left; 
+	font-weight: 700;
+	font-size: 20px; 
+	color: coral;
+}
 /* fin servicios */
+
 
 /* inicio contacto */
 
