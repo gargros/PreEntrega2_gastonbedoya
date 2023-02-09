@@ -135,7 +135,7 @@ header{
 }
 
 .img-uno{
-	background-image:url("https://tinyurl.com/jp56xcg")
+	background-image:url("https://thumbs2.imgbox.com/4f/6e/jdGS9ZEl_t.png")
 }
 
 .row-margin {
@@ -149,8 +149,63 @@ header{
 	padding: 0px;
 }
 
-.galeria img:hover {
-	color: rgba(255, 127, 80, 0.455);
+#effect-hover .img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+}
+
+#effect-hover #efecto {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	background-color: rgba(255, 127, 80, 0.686);
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+#effect-hover .img:hover #efecto {
+	opacity: 1;
+}
+
+#effect-hover h2 {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	transition-duration: 2s;
+	margin: 0px;
+}
+
+#effect-hover .img:hover h2 {
+	top: 50px;
+}
+
+#effect-hover p {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+	color: #fff;
+	transition-duration: 2s;
+	margin: 0px;
+}
+
+#effect-hover .img:hover p {
+	bottom: 50px;
 }
 
 /* fin home */
@@ -168,7 +223,7 @@ header{
 .h2_about{
 	text-align: left; 
 	padding-bottom: 20px; 
-	color: coral;
+	color: #ff7f50;
 }
 
 /* fin sobre mi */
